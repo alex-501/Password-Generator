@@ -18,3 +18,7 @@ WHEN all prompts are answered
 THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
+
+![03-javascript-homework-demo](https://user-images.githubusercontent.com/68447140/106038990-d1bab580-6095-11eb-8ce1-5c7f5aef9131.png)
+
+https://alex-501.github.io/Password-Generator/
