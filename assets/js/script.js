@@ -24,18 +24,25 @@ function generatePassword (){
   var passNum = parseInt(length); 
   console.log(passNum)
   
-  var lowerCase = confirm("LowerCase Letters?")
+
+  var lowerCase = confirm("LowerCase Letters? (Yes=OK) (No=Cancel)")
   console.log(lowerCase)
 
-  var upperCase = confirm("Capital letters?")
+
+  var upperCase = confirm("Capital letters? (Yes=OK) (No=Cancel)")
   console.log(upperCase)
 
-  var numbers = confirm("any Numbers?")
+
+  var numbers = confirm("any Numbers?(Yes=OK) (No=Cancel) ")
   console.log(numbers)
+
+
+  var symbols = confirm("any characters? (Yes=OK) (No=Cancel) ")
+  console.log(symbols)
 // now connect them
 
 
-
+//push poosible characters & define them 
   if(lowerCase)
   {possibleChars.push("a","b", "c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z")}
 
@@ -45,7 +52,8 @@ function generatePassword (){
   if(numbers) 
   {possibleChars.push("0" ,"1" , "2" , "3" , "4" , "5" , "6" , "7" , "8" ,  "9" , "10")}
 
-
+  if(symbols) 
+  {possibleChars.push(".", "/", "^", "*", "(", ")")}
     for (var  i=0 ;i< length; i++) {
       var randomNum = Math.floor(Math.random() * possibleChars.length);
       var randomChar = possibleChars[randomNum]
