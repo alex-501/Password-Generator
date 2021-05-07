@@ -1,6 +1,6 @@
 # Password-Generator
 Password Generator
-#No Installations Required, just go to or download and run the code. open index.html in your local browser
+#No Installations Required, just go to>  https://alex-501.github.io/Password-Generator/ < or download and run the code. open index.html in your local browser
 
 Generates password through promots. Allows you to choose between Capital & lowecase letters. Numbers and Symbols
 
@@ -16,5 +16,4 @@ then
 ![Screenshot (208)](https://user-images.githubusercontent.com/68447140/117511435-90faf400-af42-11eb-89e5-a2c7277f72e2.png)
 then
 ![Screenshot (209)](https://user-images.githubusercontent.com/68447140/117511439-948e7b00-af42-11eb-936f-ab28679b1018.png)
-and finally
-![Screenshot (210)](https://user-images.githubusercontent.com/68447140/117511573-c869a080-af42-11eb-8540-5cec8e829730.png)
+and finally![Screenshot (212)](https://user-images.githubusercontent.com/68447140/117511773-2e562800-af43-11eb-8280-4abe41d1b196.png)
