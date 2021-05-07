@@ -18,7 +18,7 @@ function generatePassword (){
   var possibleChars = [];
 
   //prompt variable questions
-  var length =prompt("Choose a length between 8-128 characters")
+  var length =prompt("Choose a length between 8-128 characters(Yes=OK) (No=Cancel) ")
 
 
   var passNum = parseInt(length); 
